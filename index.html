@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Assignment — Demo Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Assignment Demo</h1>
+    <p class="subtitle">Index, CSS and JS as separate files</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Simple Counter</h2>
+      <p id="count">0</p>
+      <div class="btn-row">
+        <button id="decrement" class="btn">-</button>
+        <button id="increment" class="btn">+</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Notes</h2>
+      <textarea id="note" placeholder="Type something and press Save..."></textarea>
+      <div class="btn-row">
+        <button id="save" class="btn primary">Save</button>
+      </div>
+      <div id="savedMsg" class="msg" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>Made by Vaibhavi — Demo assignment</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
